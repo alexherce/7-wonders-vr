@@ -4,5 +4,29 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 7733156f43ae2f94eb7cd6d6775d7df4
+  - enabled: 1
+    path: Assets/Scenes/ChichenItza.unity
+    guid: 6ff639581fe934ea890e9cd5c7ae0ce4
+  - enabled: 1
+    path: Assets/Scenes/Christ.unity
+    guid: 3e9db729d1772dc479e38b1f330dbc4d
+  - enabled: 1
+    path: Assets/Scenes/Colosseum.unity
+    guid: d6794e0c9bf2743c4abcedb8b390e7f4
+  - enabled: 1
+    path: Assets/Scenes/GreatWall.unity
+    guid: f2531f01dd8d84e3b8b72b946c7aaac4
+  - enabled: 1
+    path: Assets/Scenes/MachuPicchu.unity
+    guid: a56d81abdf367214b9c6d8d9c7a2925e
+  - enabled: 1
+    path: Assets/Scenes/Petra.unity
+    guid: 029e6ef7cf0f2f344a912e74aa49f42f
+  - enabled: 1
+    path: Assets/Scenes/Taj Mahal.unity
+    guid: ead211c8207e11b42b5225510ce4aaa9
   m_configObjects: {}

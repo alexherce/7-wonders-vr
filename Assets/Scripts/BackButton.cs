@@ -8,7 +8,7 @@ public class BackButton : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (OVRInput.Get(OVRInput.Button.Two)) {
-			SceneManager.LoadScene("MainScene");
+			SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
 		}
 	}
 }

@@ -15,7 +15,7 @@ public class SceneLoader : MonoBehaviour {
 			// Application.LoadLevel(scene.name);
 
 			if(OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger)) {
-				SceneManager.LoadScene(scene);
+				SceneManager.LoadScene(scene, LoadSceneMode.Single);
 			}
 		}
 	}
