@@ -1,16 +1,22 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour {
-	
-	public Object scene;
 
-	void OnTriggerEnter(Collider other)
-     {
-         if (other.tag == "Player") 
-         {
-			Application.LoadLevel(scene.name);
-         }
-     }
+	public string scene;
+	private bool collided = false;
+
+	void OnTriggerStay(Collider other)
+	{
+		if (other.gameObject.name == "OVRPlayerController")
+		{
+			// Application.LoadLevel(scene.name);
+
+			if(OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger)) {
+				SceneManager.LoadScene(scene);
+			}
+		}
+	}
 }
