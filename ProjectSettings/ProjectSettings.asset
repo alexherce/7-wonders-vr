@@ -803,7 +803,7 @@ PlayerSettings:
   cloudServicesEnabled:
     Analytics: 0
     Build: 0
-    Collab: 0
+    Collab: 1
     ErrorHub: 0
     Game_Performance: 0
     Hub: 0
@@ -812,9 +812,9 @@ PlayerSettings:
     Unity_Ads: 0
   facebookSdkVersion: 7.9.1
   apiCompatibilityLevel: 2
-  cloudProjectId: 
-  projectName: Oculus Sample Framework
-  organizationId: 
+  cloudProjectId: cd147bbc-f689-4f99-8949-9c7416dbeefd
+  projectName: 7WondersVR
+  organizationId: alejandro-herce
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
